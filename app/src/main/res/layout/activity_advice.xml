@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".advice">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="400dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="16dp"
+        android:text="The University Departments We Recommend To You"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/computer_engineer"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="11dp"
+        android:text="Computer Engineering"
+        app:layout_constraintBottom_toTopOf="@+id/mis"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/mis"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:text="Managing Information Systems"
+        app:layout_constraintBottom_toTopOf="@+id/software_engineer"
+        app:layout_constraintEnd_toEndOf="@+id/software_engineer"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/computer_engineer"
+        app:layout_constraintTop_toBottomOf="@+id/computer_engineer"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/software_engineer"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:text="Software Engineering"
+        app:layout_constraintBottom_toTopOf="@+id/Information_Security"
+        app:layout_constraintEnd_toEndOf="@+id/computer_engineer"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/mis"
+        app:layout_constraintTop_toBottomOf="@+id/mis"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Information_Security"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="201dp"
+        android:text="Information Security"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/computer_engineer"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/software_engineer"
+        app:layout_constraintTop_toBottomOf="@+id/software_engineer"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="248dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="125dp"
+        android:background="@drawable/add_lesson_button"
+        android:text="+"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/Information_Security"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="@+id/Information_Security"
+        app:layout_constraintTop_toTopOf="@+id/computer_engineer"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/homepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:hint="Homepage"
+        android:textColorHint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.949" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

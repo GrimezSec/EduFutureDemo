@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelecetInterest">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:text="Please select"
+
+        android:alpha="0.5"/>
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        >
+        <AutoCompleteTextView
+            android:id="@+id/auto_complete_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Select Hobbie 1"
+
+            android:inputType="none"/>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="0dp">
+
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_complete_textview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select Hobbie 2"
+                android:inputType="none" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="0dp">
+
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_complete_textview3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select Favorite Lessons 1"
+                android:inputType="none" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="0dp">
+
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_complete_textview4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select Favorite Lessons 2"
+                android:inputType="none" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="0dp">
+
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_complete_textview5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Select Departmand 1"
+                android:inputType="none" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="0dp">
+
+
+            <AutoCompleteTextView
+                android:id="@+id/auto_complete_textview6"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:hint="Select Departmand 2"
+                android:inputType="none" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/submit_interesting"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/submit_new"
+        android:padding="25dp"
+        android:text="Submit"
+        android:textColor="#690BEC"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

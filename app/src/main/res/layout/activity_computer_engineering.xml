@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".computer_engineering">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="0dp"
+                android:layout_weight="1"
+                android:text="Computer Engineering"
+                android:textAlignment="center"
+                android:textColor="@color/purple_700"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/textView4"
+                app:layout_constraintStart_toStartOf="@+id/textView4"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="21dp"
+                android:layout_weight="1"
+                android:text="Computer engineering is a field that combines elements of both computer science and electrical engineering to design and develop computer systems and software. Students in this program will learn about programming languages, algorithms, computer architecture, and operating systems, among other topics. They will also study hardware design and computer networks. As technology continues to advance, computer engineering graduates are in high demand across a wide range of industries. This field provides excellent job opportunities and salary potential. Additionally, computer engineering is a constantly evolving field that allows professionals to be at the forefront of technological advancements. Overall, pursuing a degree in computer engineering can lead to a rewarding and fulfilling career."
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/imageView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="243dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_weight="1"
+                android:text="Courses in Computer Engineering"
+                android:textAlignment="center"
+                android:textColor="@color/purple_700"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/lessons"
+                app:layout_constraintStart_toStartOf="@+id/textView4"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/lessons"
+                android:layout_width="400dp"
+                android:layout_height="410dp"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="21dp"
+                android:layout_weight="1"
+                android:text="Programming Languages &#xA;
+Data Structures and Algorithms &#xA;
+Computer Organization &#xA;
+Digital Circuits and Systems &#xA;
+Operating Systems &#xA;
+Software Engineering &#xA;
+Computer Networks &#xA;
+Database Systems &#xA;
+Artificial Intelligence&#xA;
+Computer Graphics&#xA;
+Cybersecurity&#xA;
+Embedded Systems&#xA;
+Distributed Systems&#xA;
+Human-Computer Interaction&#xA;
+Computer Architecture&#xA;
+Computer Vision&#xA;
+Parallel Processing&#xA;
+Mobile Application Development&#xA;
+Web Development"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/button_for_uni"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+
+
+            <Button
+                android:hint="Tap to see universities have this department"
+                android:textColorHint="@color/white"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_for_uni"
+
+                ></Button>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

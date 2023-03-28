@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "110320398904",
+    "project_id": "edufuturedemo",
+    "storage_bucket": "edufuturedemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110320398904:android:69757b79dbef86baf1accd",
+        "android_client_info": {
+          "package_name": "com.example.edufuturedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "110320398904-50e4e72fcsiq0ctnr0f9r4el4dnurrrd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVnJA8PN3k2ZdMiKAK5I6AGv2rdgeU6Kw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "110320398904-50e4e72fcsiq0ctnr0f9r4el4dnurrrd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

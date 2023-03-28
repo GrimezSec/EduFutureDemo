@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer"
+    tools:context=".info_page">
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="25dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:text="Introduction to Network Fundemantals"
+        android:textSize="25sp"
+        ></TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginRight="50dp"
+            android:text="Computer Engineering students are expected to be proficient in network fundamentals. The Networking Fundamentals course provides a comprehensive introduction to network architecture, protocols, and technologies. The course covers networking concepts such as the OSI model, Ethernet, IP addressing, routing, and switching. Students will learn how to design, configure, and troubleshoot networks using various network devices and software tools. The course also covers network security concepts, including firewalls, VPNs, and intrusion detection and prevention systems. Upon completing this course, students will have a solid understanding of the foundational principles of computer networking, which will be essential to their success in the field of computer engineering."
+            android:textSize="19sp"></TextView>
+
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+
+        <include layout="@layout/main_toolbar">
+
+
+        </include>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_gravity="start">
+
+        <include
+            layout="@layout/menu_slider"/>
+
+
+    </RelativeLayout>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
